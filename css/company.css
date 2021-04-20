@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.header {
+    position: relative;
+}
+
+.navDiv {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.nav {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+.parallax {
+    background-image: url(https://mdbootstrap.com/img/Photos/Others/img%20%2844%29.jpg);
+}
+
+#about-us p {
+    padding: 0 200px 0 200px;
+}
+
+.parallax2 {
+    background-image: url(https://mdbootstrap.com/img/Photos/Others/nature4.jpg);
+    color: white;
+    margin-top: 70px;
+}
+
+.parallax3 {
+    background-image: url(https://mdbootstrap.com/img/Photos/Others/city13.jpg);
+}
+
+.parallax4 {
+    background-image: url(https://mdbootstrap.com/img/Photos/Others/images/92.jpg);
+}
+
+.parallax5 {
+    background-image: url(https://mdbootstrap.com/img/Photos/Others/city10.jpg)
+}
+
+.all-parallax {
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#phone {
+    border-bottom: 0 !important;
+}
+
+.modal-txt {
+    font-family: 'Lobster', cursive;
+}
+
+#top .btn {
+    position: fixed;
+    width: auto;
+    height: 60px;
+    bottom: 40px;
+    right: 0px;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1rem !important;
+    font-weight: bold;
+}
